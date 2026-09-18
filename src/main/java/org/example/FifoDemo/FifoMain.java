@@ -2,6 +2,7 @@ package org.example.FifoDemo;
 
 public class FifoMain {
     public static void main(String[] args) {
+        System.out.println("In FIFO Demo...");
         FIFOCache fifo=new FIFOCache(5);
 
         System.out.println(fifo.valueMap);
